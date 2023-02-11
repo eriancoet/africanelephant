@@ -3,6 +3,7 @@
 secrets.json
 constant.js
 firebaseConfig.js
+firebaseAdmin.js
 # dependencies
 /node_modules
 /.pnp
