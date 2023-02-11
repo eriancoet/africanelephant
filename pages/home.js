@@ -32,6 +32,7 @@ export default function About() {
     <Image
            className={styles.image}
            src={author}
+           alt={"pic"}
            />
     </div>
   
@@ -49,6 +50,7 @@ export default function About() {
      <Image 
       src={jsLogo}
       className={styles.sideImage}
+      alt={"pic"}
       width={300}
       height={100}
       /> 

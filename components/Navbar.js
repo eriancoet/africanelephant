@@ -75,6 +75,7 @@ function Navbar() {
   <Image
     className={styles.logo}
     src={Logo}
+    alt={"pic"}
     height={30}
     width={67}
     />

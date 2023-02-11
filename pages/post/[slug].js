@@ -25,6 +25,7 @@ const Post = () => {
     setPost(posts.find (post => post.id === router.query.slug));
 
     setAuthor(users.find(user => user.id === post.data?.author));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [post])
 
   return (

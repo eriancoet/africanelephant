@@ -24,6 +24,8 @@ const styles = {
    image: `flex items-center justify-center w-full`
  }
 export default function About() {
+
+       const content4 = "At the African Elephant Restaurant, we believe that dining should be a memorable experience, and that's why we take great pride in serving good food and providing friendly service. Our menu features a wide range of dishes, including both traditional South African fare and international favorites. Whether you're in the mood for something familiar or want to try something new, we have something to suit every taste. Come visit us and discover why we're a local favorite for delicious food and warm hospitality."
      return (
 
     <div className={styles.wrapper}>
@@ -33,12 +35,14 @@ export default function About() {
     <Image
            className={styles.image}
            src={author}
+           alt={"african elephant"}
            />
     </div>
     <div className={styles.imgTop}>
     <Image
            class={"scale-75 content-center"}
            src={aer}
+           alt={"african"}
            />
     </div>
     <div className={styles.content}>
@@ -53,11 +57,7 @@ export default function About() {
     <div className={styles.paragraph}>
 
     <div class="max-w-md text-center text-lg">
-    At the African Elephant Restaurant, we believe that dining should be a memorable experience, 
-    and that's why we take great pride in serving good food and providing friendly service. Our menu 
-    features a wide range of dishes, including both traditional South African fare and international favorites. 
-    Whether you're in the mood for something familiar or want to try something new, we have something to suit every taste. 
-    Come visit us and discover why we're a local favorite for delicious food and warm hospitality.
+ {content4}
     </div>
 
    

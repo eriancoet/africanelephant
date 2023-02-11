@@ -60,6 +60,7 @@ const ArticleMain = ({post, author}) => {
         <Image 
           className={styles.image}
           src={`http://res.cloudinary.com/demo/image/fetch/${post.data?.bannerImage}`}
+          alt={"pic"}
           height={100}
           width={300}
           />

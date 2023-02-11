@@ -16,6 +16,7 @@ const Banner = () => {
     <Image
            className={styles.image}
            src={author}
+           alt={"african elephant"}
            />
     
 
