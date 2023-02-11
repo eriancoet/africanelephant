@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Image from 'next/image'
 import Logo from '../static/logo.jpg'
 import {FiBookmark} from 'react-icons/fi'

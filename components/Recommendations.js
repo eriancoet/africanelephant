@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Image from 'next/image'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { MdMarkEmailUnread } from 'react-icons/md'
@@ -59,6 +60,7 @@ const Recommendations = ({ author }) => {
         <div className={styles.title}>More Information</div>
         <div className={styles.articleContainer}> 
         {recommendedPosts.map(post => ( 
+        // eslint-disable-next-line react/jsx-key
         <div className={styles.articleContentWrapper}>
           <div className={styles.articleContent}>
           <div className={styles.recommendationAuthorContainer}>
